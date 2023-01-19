@@ -75,7 +75,7 @@ chrome.runtime.onMessage.addListener(async function (
     console.log(instagramtab);
     sendResponse("received open-new on background");
   }
-  if (message.method === "get-of-tab-id") {
+  if (message.method === "get-ig-tab-id") {
     console.log("received get tabId message");
     sendResponse(sender.tab.id);
   }

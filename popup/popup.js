@@ -91,6 +91,6 @@ licenseContainer.addEventListener("submit", (e) => {
 
 function paymentSuccessful() {
   let paymentContent = document.getElementById("payment-content");
-  alert("License activated! Enjoy unlimited access to OFDB.");
+  alert("License activated! Enjoy unlimited access to Instaloader.");
   paymentContent.remove();
 }

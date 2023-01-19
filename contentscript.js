@@ -323,7 +323,7 @@ async function downloadOpenVideo(targetVideo) {
 
 // gets tab ID from background script and returns it
 async function getCurrentTabId() {
-  let tabId = await chrome.runtime.sendMessage({ method: "get-of-tab-id" });
+  let tabId = await chrome.runtime.sendMessage({ method: "get-ig-tab-id" });
   return tabId;
 }
 
