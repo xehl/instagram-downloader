@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: #222;
+  width: 16rem;
+  height: 4rem;
+  padding: 12px;
+  margin: 0px;
+  font-family: "Roboto";
+  color: rgb(68, 68, 68);
+}
+#flexcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 12px;
+}
+#title {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#titletext {
+  font-weight: 700;
+  font-size: medium;
+}
+.instructions {
+  margin-bottom: 10px;
+}
+.freebies {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+#downloads {
+  padding: 4px 7px;
+  background: green;
+  color: white;
+  border-radius: 5px;
+}
+button {
+  border: 0;
+  border-radius: 30px;
+  font-family: "Roboto";
+  color: white;
+}
+#loadscript {
+  height: 30px;
+  padding: 5px 25px;
+  background-color: #01aef0;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+}
+#loadscript:hover {
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  background-color: #4dbfed;
+}
+input[type="text"]
+{
+  font-size: 12px;
+  font-family: "Roboto";
+  width: 150px;
+}
+#activate {
+  background-color: rgb(107, 107, 107);
+  border-radius: 3px;
+  margin-left: 6px;
+  font-size: 12px;
+  height: 20px;
+}
+#licensecontainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#licenselink {
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-decoration: none;
+}
+#licenselink:hover {
+  text-decoration: underline;
+}
+#activate {
+  cursor: pointer;
+}
+#payment-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
