@@ -4,9 +4,9 @@
     "description": "Add download button to Instagram pages",
     "version": "0.0.1",
     "icons": {
-        "16": "icons/odb-logo-16.png",
-        "48": "icons/odb-logo-48.png",
-        "128": "icons/odb-logo-128.png"
+        "16": "icons/instalogo_16.png",
+        "48": "icons/instalogo_48.png",
+        "128": "icons/instalogo_128.png"
     },
     "options_page": "settings/settings.html",
     "action": {
